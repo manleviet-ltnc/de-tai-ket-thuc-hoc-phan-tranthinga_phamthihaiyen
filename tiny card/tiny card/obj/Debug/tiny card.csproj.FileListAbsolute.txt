@@ -9,3 +9,13 @@ D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.exe
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csprojResolveAssemblyReference.cache
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Form1.resources
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Properties.Resources.resources
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.GenerateResource.Cache
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.exe
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe.config
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.pdb
