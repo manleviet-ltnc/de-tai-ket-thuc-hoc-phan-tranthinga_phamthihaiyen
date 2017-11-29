@@ -89,10 +89,10 @@
     <Content Include="Resources\cat.jpg" />
     <Content Include="Resources\cheetah.jpg" />
     <Content Include="Resources\chicken.jpg" />
-    <Content Include="Resources\elephant.jpg" />
     <Content Include="Resources\deer.jpg" />
     <Content Include="Resources\dog.jpg" />
     <Content Include="Resources\duck.jpg" />
+    <Content Include="Resources\elephant.jpg" />
     <Content Include="Resources\fish.jpg" />
     <Content Include="Resources\flag.jpg" />
     <Content Include="Resources\fox.jpg" />
@@ -100,7 +100,6 @@
     <Content Include="Resources\hippo.jpg" />
     <Content Include="Resources\honey bee.jpg" />
     <Content Include="Resources\horse.jpg" />
-    <Content Include="Resources\lion.png" />
     <Content Include="Resources\magnifying_glass.jpg" />
     <Content Include="Resources\monkey.jpg" />
     <Content Include="Resources\mouse.jpg" />

@@ -27,8 +27,17 @@ namespace tiny_card.entity
 
         public static String relativePath(String path)
         {
-            string resFolder = AppDomain.CurrentDomain.RelativeSearchPath;
-            return resFolder + path + ".jpg";
+            string folderPath = AppDomain.CurrentDomain.BaseDirectory;
+            string[] parts = folderPath.Split('\\');
+            string filePath= "";
+            foreach(string part in parts)
+            {
+                if(!part.Equals("Debug") && !part.Equals("bin") && !part.Equals(""))
+                {
+                    filePath = filePath + part + '\\';
+                }
+            }
+            return filePath + @"Resources\"+ path + ".jpg";
         }
     }
 }

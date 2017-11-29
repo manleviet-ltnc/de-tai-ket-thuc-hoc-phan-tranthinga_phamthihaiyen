@@ -31,19 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.lblCard1 = new System.Windows.Forms.Label();
-            this.picBox1 = new System.Windows.Forms.PictureBox();
             this.lblCard2 = new System.Windows.Forms.Label();
-            this.picBox2 = new System.Windows.Forms.PictureBox();
             this.lblCard3 = new System.Windows.Forms.Label();
             this.lblCard4 = new System.Windows.Forms.Label();
-            this.picBox3 = new System.Windows.Forms.PictureBox();
-            this.picBox4 = new System.Windows.Forms.PictureBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox1)).BeginInit();
+            this.txtStage = new System.Windows.Forms.TextBox();
+            this.picBox4 = new System.Windows.Forms.PictureBox();
+            this.picBox2 = new System.Windows.Forms.PictureBox();
+            this.picBox3 = new System.Windows.Forms.PictureBox();
+            this.picBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -69,19 +70,6 @@
             this.lblCard1.Text = "1";
             this.lblCard1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // picBox1
-            // 
-            this.picBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picBox1.Image = ((System.Drawing.Image)(resources.GetObject("picBox1.Image")));
-            this.picBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("picBox1.InitialImage")));
-            this.picBox1.Location = new System.Drawing.Point(28, 12);
-            this.picBox1.Name = "picBox1";
-            this.picBox1.Size = new System.Drawing.Size(152, 167);
-            this.picBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox1.TabIndex = 2;
-            this.picBox1.TabStop = false;
-            this.picBox1.Click += new System.EventHandler(this.picBox1_Click);
-            // 
             // lblCard2
             // 
             this.lblCard2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -93,18 +81,6 @@
             this.lblCard2.Text = "2";
             this.lblCard2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // picBox2
-            // 
-            this.picBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picBox2.Image = ((System.Drawing.Image)(resources.GetObject("picBox2.Image")));
-            this.picBox2.Location = new System.Drawing.Point(203, 12);
-            this.picBox2.Name = "picBox2";
-            this.picBox2.Size = new System.Drawing.Size(152, 167);
-            this.picBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox2.TabIndex = 2;
-            this.picBox2.TabStop = false;
-            this.picBox2.Click += new System.EventHandler(this.picBox2_Click);
-            // 
             // lblCard3
             // 
             this.lblCard3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -113,7 +89,7 @@
             this.lblCard3.Name = "lblCard3";
             this.lblCard3.Size = new System.Drawing.Size(152, 167);
             this.lblCard3.TabIndex = 1;
-            this.lblCard3.Text = "1";
+            this.lblCard3.Text = "3";
             this.lblCard3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblCard4
@@ -124,37 +100,12 @@
             this.lblCard4.Name = "lblCard4";
             this.lblCard4.Size = new System.Drawing.Size(152, 167);
             this.lblCard4.TabIndex = 1;
-            this.lblCard4.Text = "2";
+            this.lblCard4.Text = "4";
             this.lblCard4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // picBox3
-            // 
-            this.picBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picBox3.Image = ((System.Drawing.Image)(resources.GetObject("picBox3.Image")));
-            this.picBox3.Location = new System.Drawing.Point(28, 238);
-            this.picBox3.Name = "picBox3";
-            this.picBox3.Size = new System.Drawing.Size(152, 167);
-            this.picBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox3.TabIndex = 2;
-            this.picBox3.TabStop = false;
-            this.picBox3.Click += new System.EventHandler(this.picBox3_Click);
-            // 
-            // picBox4
-            // 
-            this.picBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picBox4.Image = ((System.Drawing.Image)(resources.GetObject("picBox4.Image")));
-            this.picBox4.InitialImage = null;
-            this.picBox4.Location = new System.Drawing.Point(203, 238);
-            this.picBox4.Name = "picBox4";
-            this.picBox4.Size = new System.Drawing.Size(152, 167);
-            this.picBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox4.TabIndex = 2;
-            this.picBox4.TabStop = false;
-            this.picBox4.Click += new System.EventHandler(this.picBox4_Click);
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(105, 430);
+            this.btnBack.Location = new System.Drawing.Point(28, 439);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 3;
@@ -164,7 +115,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(203, 430);
+            this.btnNext.Location = new System.Drawing.Point(280, 439);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
             this.btnNext.TabIndex = 3;
@@ -172,12 +123,74 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // txtStage
+            // 
+            this.txtStage.Location = new System.Drawing.Point(171, 437);
+            this.txtStage.Name = "txtStage";
+            this.txtStage.Size = new System.Drawing.Size(38, 25);
+            this.txtStage.TabIndex = 4;
+            this.txtStage.Text = "0";
+            this.txtStage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // picBox4
+            // 
+            this.picBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picBox4.Image = ((System.Drawing.Image)(resources.GetObject("picBox4.Image")));
+            this.picBox4.InitialImage = global::tiny_card.Properties.Resources.card_back;
+            this.picBox4.Location = new System.Drawing.Point(203, 238);
+            this.picBox4.Name = "picBox4";
+            this.picBox4.Size = new System.Drawing.Size(152, 167);
+            this.picBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox4.TabIndex = 2;
+            this.picBox4.TabStop = false;
+            this.picBox4.Click += new System.EventHandler(this.picBox4_Click);
+            // 
+            // picBox2
+            // 
+            this.picBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picBox2.Image = ((System.Drawing.Image)(resources.GetObject("picBox2.Image")));
+            this.picBox2.InitialImage = global::tiny_card.Properties.Resources.card_back;
+            this.picBox2.Location = new System.Drawing.Point(203, 12);
+            this.picBox2.Name = "picBox2";
+            this.picBox2.Size = new System.Drawing.Size(152, 167);
+            this.picBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox2.TabIndex = 2;
+            this.picBox2.TabStop = false;
+            this.picBox2.Click += new System.EventHandler(this.picBox2_Click);
+            // 
+            // picBox3
+            // 
+            this.picBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picBox3.Image = ((System.Drawing.Image)(resources.GetObject("picBox3.Image")));
+            this.picBox3.InitialImage = global::tiny_card.Properties.Resources.card_back;
+            this.picBox3.Location = new System.Drawing.Point(28, 238);
+            this.picBox3.Name = "picBox3";
+            this.picBox3.Size = new System.Drawing.Size(152, 167);
+            this.picBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox3.TabIndex = 2;
+            this.picBox3.TabStop = false;
+            this.picBox3.Click += new System.EventHandler(this.picBox3_Click);
+            // 
+            // picBox1
+            // 
+            this.picBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picBox1.Image = ((System.Drawing.Image)(resources.GetObject("picBox1.Image")));
+            this.picBox1.InitialImage = global::tiny_card.Properties.Resources.card_back;
+            this.picBox1.Location = new System.Drawing.Point(28, 12);
+            this.picBox1.Name = "picBox1";
+            this.picBox1.Size = new System.Drawing.Size(152, 167);
+            this.picBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox1.TabIndex = 2;
+            this.picBox1.TabStop = false;
+            this.picBox1.Click += new System.EventHandler(this.picBox1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(379, 474);
+            this.Controls.Add(this.txtStage);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.picBox4);
@@ -194,10 +207,10 @@
             this.Name = "Form1";
             this.Text = "mn";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,6 +229,7 @@
         private System.Windows.Forms.PictureBox picBox4;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.TextBox txtStage;
     }
 }
 
