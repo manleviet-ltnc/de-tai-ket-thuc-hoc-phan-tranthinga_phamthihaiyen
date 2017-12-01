@@ -11,9 +11,9 @@ using tiny_card.entity;
 
 namespace tiny_card
 {
-    public partial class Form1 : Form
+    public partial class frm1 : Form
     {
-        public Form1()
+        public frm1()
         {
             InitializeComponent();
         }
@@ -21,45 +21,37 @@ namespace tiny_card
         List<Card> cardList;
         int stage = 0;
         int remainCard = 0;
-        int maxStage;
+        int maxStage = 0;
         int minStage = 0;
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frm1_Load(object sender, EventArgs e)
         {
             cardList = CardList.ReadFromFile();
 
             initiateStage();
-            
-            maxStage = cardList.Count / 4;
-            remainCard = cardList.Count % 4;
+
+            maxStage = cardList.Count - 1;
+            remainCard = cardList.Count;
         }
 
         private void initiateStage()
         {
             lblCard1.Text = cardList[0].Word;
-            lblCard2.Text = cardList[1].Word;
-            lblCard3.Text = cardList[2].Word;
-            lblCard4.Text = cardList[3].Word;
+           
             picBox1.Image = Image.FromFile(cardList[0].Path);
-            picBox2.Image = Image.FromFile(cardList[1].Path);
-            picBox3.Image = Image.FromFile(cardList[2].Path);
-            picBox4.Image = Image.FromFile(cardList[3].Path);
+           
         }
 
         private void nextStage(int i)
         {
-            ChangeCard(lblCard1, picBox1, i*4 + 0);
-            ChangeCard(lblCard2, picBox2, i*4 + 1);
-            ChangeCard(lblCard3, picBox3, i*4 + 2);
-            ChangeCard(lblCard4, picBox4, i*4 + 3);
+            ChangeCard(lblCard1, picBox1, i + 0);
+            
         }
 
         private void backStage(int i)
         {
-            ChangeCard(lblCard1, picBox1, i*4 - 0);
-            ChangeCard(lblCard2, picBox2, i*4 - 1);
-            ChangeCard(lblCard3, picBox3, i*4 - 2);
-            ChangeCard(lblCard4, picBox4, i*4 - 3);
+            ChangeCard(lblCard1, picBox1, i - 0);
+            
         }
 
         private void ChangeCard(Label label, PictureBox picBox, int i)
@@ -77,25 +69,22 @@ namespace tiny_card
             picBox.Show();
         }
 
+        bool kt = true;
         private void picBox1_Click(object sender, EventArgs e)
-        {
-            picBox1.Hide();
+        { 
+            if (kt)
+            {
+                lblCard1.Show();
+                picBox1.Hide();
+            }
+            else
+            {
+                lblCard1.Hide();
+                picBox1.Show();
+            }
         }
 
-        private void picBox2_Click(object sender, EventArgs e)
-        {
-            picBox2.Hide();
-        }
-
-        private void picBox3_Click(object sender, EventArgs e)
-        {
-            picBox3.Hide();
-        }
-
-        private void picBox4_Click(object sender, EventArgs e)
-        {
-            picBox4.Hide();
-        }
+       
 
         private void btnNext_Click(object sender, EventArgs e)
         {
@@ -119,6 +108,21 @@ namespace tiny_card
             {
                 initiateStage();
                 txtStage.Text = stage.ToString();
+            }
+        }
+
+        private void lblCard1_Click(object sender, EventArgs e)
+        {
+            if (kt)
+            {
+                lblCard1.Hide();
+                picBox1.Show();
+            }
+            else
+            {
+                lblCard1.Show();
+                picBox1.Hide();
+                
             }
         }
     }

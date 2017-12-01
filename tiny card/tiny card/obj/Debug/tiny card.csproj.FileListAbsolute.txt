@@ -10,7 +10,6 @@ D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.exe
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.pdb
 E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csprojResolveAssemblyReference.cache
-E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Form1.resources
 E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Properties.Resources.resources
 E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.GenerateResource.Cache
 E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
@@ -19,3 +18,14 @@ E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\
 E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe.config
 E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe
 E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.frm1.resources
+F:\tiny card\tiny card\obj\Debug\tiny card.csprojResolveAssemblyReference.cache
+F:\tiny card\tiny card\obj\Debug\tiny_card.frm1.resources
+F:\tiny card\tiny card\obj\Debug\tiny_card.Properties.Resources.resources
+F:\tiny card\tiny card\obj\Debug\tiny card.csproj.GenerateResource.Cache
+F:\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
+F:\tiny card\tiny card\obj\Debug\tiny card.exe
+F:\tiny card\tiny card\obj\Debug\tiny card.pdb
+F:\tiny card\tiny card\bin\Debug\tiny card.exe.config
+F:\tiny card\tiny card\bin\Debug\tiny card.exe
+F:\tiny card\tiny card\bin\Debug\tiny card.pdb
