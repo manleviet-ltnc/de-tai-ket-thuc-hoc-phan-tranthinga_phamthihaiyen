@@ -16,7 +16,7 @@ namespace tiny_card
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm1());
+            Application.Run(new MainFrm());
         }
     }
 }

@@ -29,3 +29,4 @@ F:\tiny card\tiny card\obj\Debug\tiny card.pdb
 F:\tiny card\tiny card\bin\Debug\tiny card.exe.config
 F:\tiny card\tiny card\bin\Debug\tiny card.exe
 F:\tiny card\tiny card\bin\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.MainFrm.resources

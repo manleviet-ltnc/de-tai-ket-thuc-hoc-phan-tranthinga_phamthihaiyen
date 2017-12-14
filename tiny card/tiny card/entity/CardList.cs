@@ -8,24 +8,24 @@ namespace tiny_card.entity
 {
     class CardList
     {
-        public static List<Card> ReadFromFile()
+        public static List<Card> ReadFromFile(String albumName)
         {
             List<Card>  list = new List<Card>();
 
-            string filePath = string.Format("{0}/{1}", AppDomain.CurrentDomain.BaseDirectory, "card.txt");
+            string filePath = string.Format("{0}/{1}.txt", AppDomain.CurrentDomain.BaseDirectory, albumName);
             System.IO.StreamReader file = new System.IO.StreamReader(filePath);
 
             string newline;
             while ((newline = file.ReadLine()) != null)
             {
-                list.Add(new Card(newline, relativePath(newline)));
+                list.Add(new Card(newline, relativePath(albumName, newline)));
             }
             file.Close();
 
             return list;
         }
 
-        public static String relativePath(String path)
+        public static String relativePath(String albumName, String fileName)
         {
             string folderPath = AppDomain.CurrentDomain.BaseDirectory;
             string[] parts = folderPath.Split('\\');
@@ -37,7 +37,7 @@ namespace tiny_card.entity
                     filePath = filePath + part + '\\';
                 }
             }
-            return filePath + @"Resources\"+ path + ".jpg";
+            return filePath + @"Resources\"+ albumName +@"\"+ fileName + ".jpg";
         }
     }
 }

@@ -1,0 +1,8 @@
+builder
+doctor
+farmer
+fireman
+flight attendant
+photographer
+teacher
+traffic police

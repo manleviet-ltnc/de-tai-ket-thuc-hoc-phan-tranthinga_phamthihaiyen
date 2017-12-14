@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using tiny_card.entity;
 
@@ -24,10 +19,14 @@ namespace tiny_card
         int maxStage = 0;
         int minStage = 0;
 
+        public frm1(String albumName)
+        {
+            InitializeComponent();
+            cardList = CardList.ReadFromFile(albumName);
+        }
+
         private void frm1_Load(object sender, EventArgs e)
         {
-            cardList = CardList.ReadFromFile();
-
             initiateStage();
 
             maxStage = cardList.Count - 1;
