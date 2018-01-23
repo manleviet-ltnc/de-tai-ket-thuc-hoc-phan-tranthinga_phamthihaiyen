@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAlbumFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAlbumFrm.Designer.cs">
+      <DependentUpon>AddAlbumFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="entity\Card.cs" />
     <Compile Include="entity\CardList.cs" />
     <Compile Include="MainFrm.cs">
@@ -67,6 +73,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateCourseFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCourseFrm.Designer.cs">
+      <DependentUpon>UpdateCourseFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAlbumFrm.resx">
+      <DependentUpon>AddAlbumFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainFrm.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,6 +92,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCourseFrm.resx">
+      <DependentUpon>UpdateCourseFrm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

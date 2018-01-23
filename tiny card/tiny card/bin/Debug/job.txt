@@ -6,3 +6,4 @@ flight attendant
 photographer
 teacher
 traffic police
+paper
