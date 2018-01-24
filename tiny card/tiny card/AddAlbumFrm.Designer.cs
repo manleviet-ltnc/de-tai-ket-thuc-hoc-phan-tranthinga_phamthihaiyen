@@ -37,9 +37,11 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Location = new System.Drawing.Point(140, 38);
+            this.btnConfirm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnConfirm.Location = new System.Drawing.Point(138, 38);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(112, 23);
+            this.btnConfirm.Size = new System.Drawing.Size(119, 37);
             this.btnConfirm.TabIndex = 10;
             this.btnConfirm.Text = "Xác nhận";
             this.btnConfirm.UseVisualStyleBackColor = true;
@@ -47,9 +49,11 @@
             // 
             // btnCancel
             // 
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCancel.Location = new System.Drawing.Point(13, 38);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(112, 23);
+            this.btnCancel.Size = new System.Drawing.Size(119, 37);
             this.btnCancel.TabIndex = 11;
             this.btnCancel.Text = "Hủy bỏ";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -57,13 +61,18 @@
             // 
             // tbAddAlbum
             // 
+            this.tbAddAlbum.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tbAddAlbum.Location = new System.Drawing.Point(67, 12);
             this.tbAddAlbum.Name = "tbAddAlbum";
-            this.tbAddAlbum.Size = new System.Drawing.Size(185, 20);
+            this.tbAddAlbum.Size = new System.Drawing.Size(190, 20);
             this.tbAddAlbum.TabIndex = 7;
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 15);
             this.label1.Name = "label1";
@@ -75,16 +84,16 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // AddAlbum
+            // AddAlbumFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(273, 77);
+            this.ClientSize = new System.Drawing.Size(262, 85);
             this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.tbAddAlbum);
             this.Controls.Add(this.label1);
-            this.Name = "AddAlbum";
+            this.Name = "AddAlbumFrm";
             this.Text = "AddAlbum";
             this.ResumeLayout(false);
             this.PerformLayout();

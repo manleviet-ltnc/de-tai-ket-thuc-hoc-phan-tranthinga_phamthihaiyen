@@ -49,11 +49,7 @@ namespace tiny_card
 
         }
 
-        private void btnNew_Click(object sender, EventArgs e)
-        {
-            AddAlbumFrm frm = new AddAlbumFrm();
-            frm.Show();
-        }
+      
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -100,9 +96,6 @@ namespace tiny_card
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+      
     }
 }
