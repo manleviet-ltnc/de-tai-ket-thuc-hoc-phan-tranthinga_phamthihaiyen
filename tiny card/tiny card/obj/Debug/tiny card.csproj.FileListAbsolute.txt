@@ -41,7 +41,6 @@ D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\
 D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.pdb
 D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.UpdateCourseFrm.resources
 D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.AddAlbumFrm.resources
-D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.AddAlbumFrm.resources
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.MainFrm.resources
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.frm1.resources
 D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.UpdateCourseFrm.resources

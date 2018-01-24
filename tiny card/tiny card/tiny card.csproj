@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddAlbumFrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddAlbumFrm.Designer.cs">
-      <DependentUpon>AddAlbumFrm.cs</DependentUpon>
-    </Compile>
     <Compile Include="entity\Card.cs" />
     <Compile Include="entity\CardList.cs" />
     <Compile Include="MainFrm.cs">
@@ -79,9 +73,6 @@
     <Compile Include="UpdateCourseFrm.Designer.cs">
       <DependentUpon>UpdateCourseFrm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddAlbumFrm.resx">
-      <DependentUpon>AddAlbumFrm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainFrm.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
