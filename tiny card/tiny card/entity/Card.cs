@@ -17,7 +17,7 @@ namespace tiny_card.entity
             this.Path = path;
         }
 
-        public string Word { get => word; set => word = value; }
-        public string Path { get => path; set => path = value; }
+        public string Word { get { return word; } set { word = value; } } 
+        public string Path { get { return path; } set { path = value; } }
     }
 }

@@ -58,7 +58,7 @@
             this.lblCard1.Font = new System.Drawing.Font("Times New Roman", 50F, System.Drawing.FontStyle.Bold);
             this.lblCard1.Location = new System.Drawing.Point(169, 78);
             this.lblCard1.Name = "lblCard1";
-            this.lblCard1.Size = new System.Drawing.Size(270, 176);
+            this.lblCard1.Size = new System.Drawing.Size(259, 138);
             this.lblCard1.TabIndex = 1;
             this.lblCard1.Text = "1";
             this.lblCard1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -67,7 +67,7 @@
             // btnBack
             // 
             this.btnBack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnBack.Location = new System.Drawing.Point(27, 344);
+            this.btnBack.Location = new System.Drawing.Point(27, 306);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(89, 35);
             this.btnBack.TabIndex = 3;
@@ -78,7 +78,7 @@
             // btnNext
             // 
             this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNext.Location = new System.Drawing.Point(469, 340);
+            this.btnNext.Location = new System.Drawing.Point(458, 302);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(89, 35);
             this.btnNext.TabIndex = 3;
@@ -89,7 +89,7 @@
             // txtStage
             // 
             this.txtStage.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.txtStage.Location = new System.Drawing.Point(265, 354);
+            this.txtStage.Location = new System.Drawing.Point(260, 316);
             this.txtStage.Name = "txtStage";
             this.txtStage.Size = new System.Drawing.Size(55, 21);
             this.txtStage.TabIndex = 4;
@@ -106,7 +106,7 @@
             this.picBox1.InitialImage = global::tiny_card.Properties.Resources.card_back;
             this.picBox1.Location = new System.Drawing.Point(169, 78);
             this.picBox1.Name = "picBox1";
-            this.picBox1.Size = new System.Drawing.Size(270, 176);
+            this.picBox1.Size = new System.Drawing.Size(259, 138);
             this.picBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBox1.TabIndex = 2;
             this.picBox1.TabStop = false;
@@ -117,7 +117,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(593, 391);
+            this.ClientSize = new System.Drawing.Size(582, 353);
             this.Controls.Add(this.txtStage);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnBack);
