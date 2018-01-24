@@ -14,14 +14,16 @@ namespace tiny_card
         }
 
         List<Card> cardList;
+        DataGridView dataGridView1;
         int stage = 0;
         int remainCard = 0;
         int maxStage = 0;
         int minStage = 0;
 
-        public frm1(String albumName)
+        public frm1(String albumName, DataGridView dataGridView1)
         {
             InitializeComponent();
+            this.dataGridView1 = dataGridView1;
             cardList = CardList.ReadFromFile(albumName);
         }
 
@@ -35,9 +37,11 @@ namespace tiny_card
 
         private void initiateStage()
         {
-            lblCard1.Text = cardList[0].Word;
+            int currentIndex = this.dataGridView1.CurrentRow.Index;
+
+            lblCard1.Text = cardList[currentIndex].Word;
            
-            picBox1.Image = Image.FromFile(cardList[0].Path);
+            picBox1.Image = Image.FromFile(cardList[currentIndex].Path);
            
         }
 
@@ -69,6 +73,8 @@ namespace tiny_card
         }
 
         bool kt = true;
+        private object dataGriView1;
+
         private void picBox1_Click(object sender, EventArgs e)
         { 
             if (kt)

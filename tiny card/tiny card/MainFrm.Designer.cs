@@ -30,7 +30,6 @@
         {
             this.cmbAlbum = new System.Windows.Forms.ComboBox();
             this.btnHoc = new System.Windows.Forms.Button();
-            this.btnNew = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.colWord = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPhoto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,17 +68,6 @@
             this.btnHoc.UseVisualStyleBackColor = true;
             this.btnHoc.Click += new System.EventHandler(this.btnHoc_Click);
             // 
-            // btnNew
-            // 
-            this.btnNew.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnNew.Location = new System.Drawing.Point(441, 11);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(75, 23);
-            this.btnNew.TabIndex = 2;
-            this.btnNew.Text = "New";
-            this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -90,6 +78,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(422, 248);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // colWord
             // 
@@ -146,6 +135,7 @@
             this.btnUp.TabIndex = 2;
             this.btnUp.Text = "Up";
             this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
             // btnDown
             // 
@@ -156,6 +146,7 @@
             this.btnDown.TabIndex = 2;
             this.btnDown.Text = "Down";
             this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
             // 
             // MainFrm
             // 
@@ -168,7 +159,6 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnHoc);
             this.Controls.Add(this.cmbAlbum);
             this.Name = "MainFrm";
@@ -182,7 +172,6 @@
 
         private System.Windows.Forms.ComboBox cmbAlbum;
         private System.Windows.Forms.Button btnHoc;
-        private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn colWord;
         private System.Windows.Forms.DataGridViewTextBoxColumn colPhoto;

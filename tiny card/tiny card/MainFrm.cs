@@ -43,7 +43,7 @@ namespace tiny_card
         {
             if (!albumName.Equals(""))
             {
-                frm1 frm = new frm1(albumName);
+                frm1 frm = new frm1(albumName, dataGridView1);
                 frm.Show();
             }
 
@@ -72,6 +72,37 @@ namespace tiny_card
                 dataGridView1.Rows.RemoveAt(i);
             }
                 
+        }
+
+        private void btnUp_Click(object sender, EventArgs e)
+        {
+            int currentIndex = dataGridView1.CurrentRow.Index;
+            if (currentIndex > 0)
+            {
+                dataGridView1.ClearSelection();
+                dataGridView1.Rows[currentIndex].Selected = false;
+                currentIndex--;
+                dataGridView1.Rows[currentIndex].Selected = true;
+                dataGridView1.CurrentCell = dataGridView1.Rows[currentIndex].Cells[0];
+            }
+        }
+
+        private void btnDown_Click(object sender, EventArgs e)
+        {
+            int currentIndex = dataGridView1.CurrentRow.Index;
+            if (currentIndex < dataGridView1.RowCount - 1)
+            {
+                dataGridView1.ClearSelection();
+                dataGridView1.Rows[currentIndex].Selected = false;
+                currentIndex++;
+                dataGridView1.Rows[currentIndex].Selected = true;
+                dataGridView1.CurrentCell = dataGridView1.Rows[currentIndex].Cells[0];
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

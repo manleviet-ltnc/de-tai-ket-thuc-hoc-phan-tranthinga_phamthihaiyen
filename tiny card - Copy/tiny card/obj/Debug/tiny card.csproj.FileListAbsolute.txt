@@ -1,0 +1,45 @@
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe.config
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.pdb
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csprojResolveAssemblyReference.cache
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Form1.resources
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Properties.Resources.resources
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.World_Flags_II.resources
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.GenerateResource.Cache
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.exe
+D:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csprojResolveAssemblyReference.cache
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Properties.Resources.resources
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.GenerateResource.Cache
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.exe
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe.config
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.frm1.resources
+F:\tiny card\tiny card\obj\Debug\tiny card.csprojResolveAssemblyReference.cache
+F:\tiny card\tiny card\obj\Debug\tiny_card.frm1.resources
+F:\tiny card\tiny card\obj\Debug\tiny_card.Properties.Resources.resources
+F:\tiny card\tiny card\obj\Debug\tiny card.csproj.GenerateResource.Cache
+F:\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
+F:\tiny card\tiny card\obj\Debug\tiny card.exe
+F:\tiny card\tiny card\obj\Debug\tiny card.pdb
+F:\tiny card\tiny card\bin\Debug\tiny card.exe.config
+F:\tiny card\tiny card\bin\Debug\tiny card.exe
+F:\tiny card\tiny card\bin\Debug\tiny card.pdb
+E:\github\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.MainFrm.resources
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe.config
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.exe
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\bin\Debug\tiny card.pdb
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csprojResolveAssemblyReference.cache
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.MainFrm.resources
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.frm1.resources
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.Properties.Resources.resources
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.GenerateResource.Cache
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.csproj.CoreCompileInputs.cache
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.exe
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny card.pdb
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.UpdateCourseFrm.resources
+D:\gh\de-tai-ket-thuc-hoc-phan-tranthinga_phamthihaiyen\tiny card\tiny card\obj\Debug\tiny_card.AddAlbumFrm.resources
